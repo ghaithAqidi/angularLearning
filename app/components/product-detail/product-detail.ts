@@ -1,20 +1,19 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router'
+import {Component} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
-	selector: 'auction-product-page',
-	template:`
-	<div>
-	<img src="http://placeholder.it/820x320">
-	<h4>{{productTitle}}</h4>
-		</div>
-`
+  selector: 'auction-product-page',
+  template: `
+    <div>
+      <img src="http://placehold.it/820x320">
+      <h4>{{productTitle}}</h4>
+    </div>
+  `
 })
-
 export default class ProductDetailComponent {
-	productTitle: string;
+  productTitle: string;
 
-	constructor(route: ActivatedRoute) {
-		this.productTitle = route.snapshot.params['productTitle'];
-	}
+  constructor(route: ActivatedRoute){
+    this.productTitle = route.snapshot.params['prodTitle'];
+  }
 }

@@ -1,34 +1,31 @@
 {
-  "name": "Auction",
-  "description": "Test application.",
+  "name": "auction_ch3",
+  "description": "Sample Online Auction from Chapter 3 from the book Angular 2 Development with TypeScript",
+  "homepage": "https://www.manning.com/books/angular-2-development-with-typescript",
   "private": true,
   "scripts": {
     "start": "live-server"
   },
   "dependencies": {
-    "@angular/common": "4.1.1",
-    "@angular/compiler": "4.1.1",
-    "@angular/core": "4.1.1",
-    "@angular/forms": "4.1.1",
-    "@angular/http": "4.1.1",
-    "@angular/platform-browser": "4.1.1",
-    "@angular/platform-browser-dynamic": "4.1.1",
-    "@angular/router": "^4.1.1",
-    "bootstrap": "^3.3.7",
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+
     "core-js": "^2.4.0",
-    "jquery": "^3.2.1",
-    "rxjs": "5.3.1",
-    "systemjs": "0.20.12",
-    "zone.js": "0.8.10"
-  },
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.37",
+    "zone.js": "0.6.21",
+
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2"
+    },
   "devDependencies": {
-    "@types/node": "^7.0.18",
-    "live-server": "1.2.0",
+    "live-server": "0.8.2",
     "typescript": "^2.0.0"
-  },
-  "version": "1.0.0",
-  "main": "systemjs.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
